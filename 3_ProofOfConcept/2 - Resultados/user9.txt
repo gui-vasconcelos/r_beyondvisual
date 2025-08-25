@@ -1,0 +1,132 @@
+RELATÓRIO DE AVALIAÇÃO (RANDOMIZADO)
+Data/Hora: 17/06/2025, 15:37:04
+
+================== Sessão 1: RESULTADOS (Ordem Apresentada) ==================
+ORDEM	IMAGEM		SOM SELECIONADO	NÍVEL DE CONFIANÇA
+1	1_I14.png		1_S14.flac		3
+2	2_I7.png		2_S7.flac		7
+3	3_I2.png		3_S2.flac		6
+
+================== Sessão 2: RESULTADOS (Ordem Apresentada) ==================
+ORDEM	IMAGEM		SOM SELECIONADO	NÍVEL DE CONFIANÇA
+1	5_I16.png		6_S10.flac		6
+2	4_I11.png		4_S11.flac		7
+3	6_I10.png		5_S16.flac		6
+
+================ ANÁLISE DE ENGAJAMENTO ================
+
+--- Cliques para Expandir Imagem ---
+IMAGEM		Nº DE EXPANSÕES
+1_I14.png		0
+2_I7.png		0
+3_I2.png		0
+5_I16.png		0
+4_I11.png		0
+6_I10.png		0
+
+--- Métricas Gerais ---
+Tempo Total de Sessão: 6:11.402
+Total de Mudanças de Pareamento: 12
+
+================ LOG DE AÇÕES DETALHADO ================
+TEMPO		SESSÃO		AÇÃO		DETALHES
+0:02.928	session1		REPLAY		1_S14.flac (1ª vez)
+0:33.896	session1		REPLAY		2_S7.flac (1ª vez)
+1:04.495	session1		REPLAY		3_S2.flac (1ª vez)
+1:32.465	page1		REPLAY		1_S14.flac (1ª vez)
+1:37.936	page1		REPLAY		2_S7.flac (1ª vez)
+1:42.142	page1		CHANGE		2_I7.png: undefined → 2_S7.flac
+1:43.942	page1		REPLAY		1_S14.flac (2ª vez)
+1:47.606	page1		CHANGE		3_I2.png: undefined → 1_S14.flac
+1:50.534	page1		REPLAY		3_S2.flac (1ª vez)
+1:55.974	page1		CHANGE		1_I14.png: undefined → 3_S2.flac
+1:59.950	page1		REPLAY		2_S7.flac (2ª vez)
+2:14.438	page1		REPLAY		1_S14.flac (3ª vez)
+2:26.158	page1		REPLAY		3_S2.flac (2ª vez)
+2:40.502	page1		REPLAY		1_S14.flac (4ª vez)
+2:47.270	page1		REPLAY		3_S2.flac (3ª vez)
+2:56.397	page1		CHANGE		3_I2.png: 1_S14.flac → 3_S2.flac
+2:58.941	page1		CHANGE		1_I14.png: 3_S2.flac → 1_S14.flac
+3:00.106	page1		REPLAY		1_S14.flac (5ª vez)
+3:16.677	session2		REPLAY		4_S11.flac (1ª vez)
+3:39.917	session2		REPLAY		5_S16.flac (1ª vez)
+4:09.821	session2		REPLAY		6_S10.flac (1ª vez)
+4:22.428	session2		REPLAY		4_S11.flac (2ª vez)
+4:29.300	page2		REPLAY		4_S11.flac (1ª vez)
+4:33.163	page2		CHANGE		4_I11.png: undefined → 4_S11.flac
+4:36.900	page2		REPLAY		5_S16.flac (1ª vez)
+4:40.563	page2		REPLAY		6_S10.flac (1ª vez)
+4:45.315	page2		CHANGE		5_I16.png: undefined → 6_S10.flac
+4:47.635	page2		REPLAY		5_S16.flac (2ª vez)
+4:52.099	page2		CHANGE		6_I10.png: undefined → 5_S16.flac
+4:57.763	page2		CHANGE		5_I16.png: 6_S10.flac → 5_S16.flac
+4:59.506	page2		CHANGE		6_I10.png: 5_S16.flac → 6_S10.flac
+5:11.851	page2		REPLAY		4_S11.flac (2ª vez)
+5:15.539	page2		REPLAY		6_S10.flac (2ª vez)
+5:36.747	page2		REPLAY		4_S11.flac (3ª vez)
+5:38.722	page2		REPLAY		5_S16.flac (3ª vez)
+6:00.665	page2		CHANGE		6_I10.png: 6_S10.flac → 5_S16.flac
+6:01.794	page2		CHANGE		5_I16.png: 5_S16.flac → 6_S10.flac
+6:03.031	page2		REPLAY		6_S10.flac (3ª vez)
+
+================ ANÁLISE DE CLIQUES ================
+Número Total de Cliques: 55
+Intervalo Médio entre Cliques: 6824ms
+
+--- LOG DE CLIQUES DETALHADO ---
+TEMPO		INTERVALO (ms)	ELEMENTO-ALVO
+0:02.927	          2927	BUTTON.play-button
+0:33.895	         30968	BUTTON.play-button
+1:04.495	         30600	BUTTON.play-button
+1:24.654	         20159	BUTTON#preSession1Button.action-button
+1:32.454	          7800	BUTTON.play-button
+1:37.926	          5472	BUTTON.play-button
+1:40.206	          2280	BUTTON.play-button.playing
+1:42.142	          1936	INPUT
+1:43.942	          1800	BUTTON.play-button
+1:47.606	          3664	LABEL.radio-option
+1:47.606	             0	INPUT
+1:50.534	          2928	BUTTON.play-button
+1:55.973	          5439	SPAN
+1:55.974	             1	INPUT
+1:59.949	          3975	BUTTON.play-button
+2:04.390	          4441	INPUT.confidence-slider
+2:14.437	         10047	BUTTON.play-button
+2:20.397	          5960	INPUT.confidence-slider
+2:26.157	          5760	BUTTON.play-button
+2:40.501	         14344	BUTTON.play-button
+2:47.269	          6768	BUTTON.play-button
+2:56.397	          9128	INPUT
+2:58.941	          2544	LABEL.radio-option
+2:58.941	             0	INPUT
+3:00.101	          1160	BUTTON.play-button
+3:09.828	          9727	BUTTON.play-button.playing
+3:11.925	          2097	INPUT.confidence-slider
+3:15.252	          3327	BUTTON#continueButton.action-button
+3:16.676	          1424	BUTTON.play-button
+3:39.916	         23240	BUTTON.play-button
+4:09.820	         29904	BUTTON.play-button
+4:22.427	         12607	BUTTON.play-button
+4:27.011	          4584	DIV.footer
+4:27.515	           504	BUTTON#preSession2Button.action-button
+4:29.299	          1784	BUTTON.play-button
+4:33.163	          3864	LABEL.radio-option
+4:33.163	             0	INPUT
+4:36.899	          3736	BUTTON.play-button
+4:40.563	          3664	BUTTON.play-button
+4:45.315	          4752	INPUT
+4:47.634	          2319	BUTTON.play-button
+4:52.099	          4465	INPUT
+4:57.763	          5664	INPUT
+4:59.506	          1743	INPUT
+5:05.283	          5777	INPUT.confidence-slider
+5:11.850	          6567	BUTTON.play-button
+5:15.538	          3688	BUTTON.play-button
+5:22.506	          6968	INPUT.confidence-slider
+5:36.746	         14240	BUTTON.play-button
+5:38.722	          1976	BUTTON.play-button
+6:00.665	         21943	INPUT
+6:01.793	          1128	INPUT
+6:03.017	          1224	BUTTON.play-button
+6:07.201	          4184	INPUT.confidence-slider
+6:11.401	          4200	BUTTON#confirmButton.action-button

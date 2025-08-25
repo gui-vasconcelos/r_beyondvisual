@@ -1,0 +1,108 @@
+RELATÓRIO DE AVALIAÇÃO (RANDOMIZADO)
+Data/Hora: 17/06/2025, 14:57:56
+
+================== Sessão 1: RESULTADOS (Ordem Apresentada) ==================
+ORDEM	IMAGEM		SOM SELECIONADO	NÍVEL DE CONFIANÇA
+1	1_I14.png		3_S2.flac		2
+2	3_I2.png		1_S14.flac		7
+3	2_I7.png		2_S7.flac		6
+
+================== Sessão 2: RESULTADOS (Ordem Apresentada) ==================
+ORDEM	IMAGEM		SOM SELECIONADO	NÍVEL DE CONFIANÇA
+1	4_I11.png		5_S16.flac		3
+2	6_I10.png		6_S10.flac		5
+3	5_I16.png		4_S11.flac		3
+
+================ ANÁLISE DE ENGAJAMENTO ================
+
+--- Cliques para Expandir Imagem ---
+IMAGEM		Nº DE EXPANSÕES
+1_I14.png		0
+3_I2.png		0
+2_I7.png		0
+4_I11.png		0
+6_I10.png		0
+5_I16.png		0
+
+--- Métricas Gerais ---
+Tempo Total de Sessão: 7:36.639
+Total de Mudanças de Pareamento: 6
+
+================ LOG DE AÇÕES DETALHADO ================
+TEMPO		SESSÃO		AÇÃO		DETALHES
+0:05.248	session1		REPLAY		1_S14.flac (1ª vez)
+0:38.469	session1		REPLAY		2_S7.flac (1ª vez)
+1:10.279	session1		REPLAY		3_S2.flac (1ª vez)
+1:42.096	session1		REPLAY		1_S14.flac (2ª vez)
+1:53.126	page1		REPLAY		1_S14.flac (1ª vez)
+2:14.869	page1		CHANGE		3_I2.png: undefined → 1_S14.flac
+2:16.159	page1		REPLAY		2_S7.flac (1ª vez)
+2:42.461	page1		CHANGE		2_I7.png: undefined → 2_S7.flac
+2:44.143	page1		REPLAY		3_S2.flac (1ª vez)
+3:12.141	page1		REPLAY		1_S14.flac (2ª vez)
+3:17.559	page1		REPLAY		2_S7.flac (2ª vez)
+3:21.396	page1		CHANGE		1_I14.png: undefined → 3_S2.flac
+3:41.810	session2		REPLAY		4_S11.flac (1ª vez)
+4:13.436	session2		REPLAY		5_S16.flac (1ª vez)
+4:44.315	session2		REPLAY		6_S10.flac (1ª vez)
+5:21.020	page2		REPLAY		4_S11.flac (1ª vez)
+5:52.412	page2		REPLAY		5_S16.flac (1ª vez)
+6:20.386	page2		REPLAY		6_S10.flac (1ª vez)
+6:28.608	page2		CHANGE		6_I10.png: undefined → 6_S10.flac
+6:34.274	page2		REPLAY		4_S11.flac (2ª vez)
+7:03.385	page2		REPLAY		6_S10.flac (2ª vez)
+7:09.073	page2		REPLAY		5_S16.flac (2ª vez)
+7:20.351	page2		CHANGE		4_I11.png: undefined → 5_S16.flac
+7:22.711	page2		CHANGE		5_I16.png: undefined → 4_S11.flac
+
+================ ANÁLISE DE CLIQUES ================
+Número Total de Cliques: 45
+Intervalo Médio entre Cliques: 10259ms
+
+--- LOG DE CLIQUES DETALHADO ---
+TEMPO		INTERVALO (ms)	ELEMENTO-ALVO
+0:05.247	          5247	BUTTON.play-button
+0:38.462	         33215	BUTTON.play-button
+1:10.278	         31816	BUTTON.play-button
+1:42.086	         31808	BUTTON.play-button
+1:46.886	          4800	BUTTON.play-button.playing
+1:48.485	          1599	BUTTON#preSession1Button.action-button
+1:53.125	          4640	BUTTON.play-button
+2:13.229	         20104	BUTTON.play-button.playing
+2:14.869	          1640	LABEL.radio-option
+2:14.869	             0	INPUT
+2:16.149	          1280	BUTTON.play-button
+2:37.781	         21632	BUTTON.play-button.playing
+2:42.461	          4680	INPUT
+2:44.133	          1672	BUTTON.play-button
+3:12.140	         28007	BUTTON.play-button
+3:16.732	          4592	BUTTON.play-button.playing
+3:17.556	           824	BUTTON.play-button
+3:19.685	          2129	BUTTON.play-button.playing
+3:21.396	          1711	LABEL.radio-option
+3:21.396	             0	INPUT
+3:24.612	          3216	INPUT.confidence-slider
+3:25.548	           936	INPUT.confidence-slider
+3:28.948	          3400	INPUT.confidence-slider
+3:31.308	          2360	INPUT.confidence-slider
+3:36.588	          5280	INPUT.confidence-slider
+3:38.452	          1864	INPUT.confidence-slider
+3:39.515	          1063	BUTTON#continueButton.action-button
+3:41.803	          2288	BUTTON.play-button
+4:13.435	         31632	BUTTON.play-button
+4:44.314	         30879	BUTTON.play-button
+5:16.890	         32576	BUTTON#preSession2Button.action-button
+5:21.010	          4120	BUTTON.play-button
+5:52.401	         31391	BUTTON.play-button
+6:20.377	         27976	BUTTON.play-button
+6:28.608	          8231	INPUT
+6:34.264	          5656	BUTTON.play-button
+6:41.592	          7328	INPUT.confidence-slider
+6:42.056	           464	INPUT.confidence-slider
+7:03.384	         21328	BUTTON.play-button
+7:09.072	          5688	BUTTON.play-button
+7:20.351	         11279	INPUT
+7:22.711	          2360	INPUT
+7:28.168	          5457	INPUT.confidence-slider
+7:30.343	          2175	INPUT.confidence-slider
+7:36.639	          6296	BUTTON#confirmButton.action-button
